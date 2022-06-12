@@ -1,0 +1,72 @@
+* {
+    margin: 0;
+    padding: 0;
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+    outline: none;
+    list-style: none; 
+
+    
+}
+
+img {
+    width: 100%;
+    height: auto; 
+}
+
+h1 {
+    font-size: 3.2rem;
+}
+
+h2 {
+    font-size: 3rem;
+}
+
+h3 {
+    font-size: 2.8rem;
+}
+
+h4 {
+    font-size: 2.6rem;
+}
+
+h5 {
+    font-size: 2.4rem;
+}
+
+
+h1, h2, h3, h4, h5 {
+    margin: 0;
+    line-height: 1.4;
+    font-weight: 600;
+
+}
+
+
+p {
+    font-size: 1.1rem;
+    line-height: 1.8;
+    margin: 0;
+}
+
+a {
+    color: inherit;
+    &:hover {
+        text-decoration: none;
+        color: inherit;
+    }
+}
+
+
+
+
+.container-fluid {
+    --bs-gutter-x: 0!important;
+    overflow-x: hidden;
+}
+
+.title-wrap {
+    margin: 20px 0;   
+}
+
+
